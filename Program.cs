@@ -8,7 +8,9 @@ class Program
         Console.WriteLine("***** My First C# App *****");
         Console.WriteLine("Hello World!");
         Console.WriteLine();
+        Console.WriteLine("i love content warning uwu");
         // Wait for Enter key to be pressed before shutting down.
         Console.ReadLine();
+
     }
 }

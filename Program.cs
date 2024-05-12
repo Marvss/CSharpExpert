@@ -12,6 +12,10 @@ class Program
         for(int i = 0; i < args.Length; i++)
         Console.WriteLine("Arg: {0}", args[i]);
         Console.ReadLine();
+        Console.WriteLine("OS: {0}", Environment.OSVersion);
+        Console.WriteLine("Number of processors: {0}",
+        Environment.ProcessorCount);
+        Console.WriteLine(".NET Version: {0}",Environment.Version);
         return -1;
 
     }

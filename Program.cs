@@ -2,12 +2,13 @@
 
 class Program
 {
-    static int Main(string[] args)
+    static void Main(string[] args)
     {
-        // Process any incoming args.
-        for (int i = 0; i < args.Length; i++)
-            Console.WriteLine("Arg: {0}", args[i]);
+        Console.WriteLine("***** Basic Console I/O *****");
+        GetUserData();
         Console.ReadLine();
-        return -1;
+    }
+    private static void GetUserData()
+    {
     }
 }
